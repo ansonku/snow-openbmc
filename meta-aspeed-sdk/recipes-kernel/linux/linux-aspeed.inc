@@ -7,7 +7,8 @@ PROVIDES += "virtual/kernel"
 KCONFIG_MODE = "--alldefconfig"
 KERNEL_VERSION_SANITY_SKIP = "1"
 
-KSRC = "git://github.com/AspeedTech-BMC/linux.git;protocol=https;branch=${KBRANCH}"
+#KSRC = "git://github.com/AspeedTech-BMC/linux.git;protocol=https;branch=${KBRANCH}"
+KSRC = "git://github.com/ansonku/snow-linux.git;protocol=https;branch=${KBRANCH}"
 SRC_URI = "${KSRC}"
 
 LINUX_VERSION_EXTENSION ?= "-${SRCREV}"
