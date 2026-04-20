@@ -1,0 +1,3 @@
+[submodule "meta-snow"]
+	path = meta-snow
+	url = git@github.com:ansonku/meta-snow.git
