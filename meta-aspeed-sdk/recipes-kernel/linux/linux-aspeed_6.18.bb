@@ -2,7 +2,7 @@ KBRANCH = "aspeed-master-v6.18"
 LINUX_VERSION ?= "6.18"
 
 # Tag for v00.08.02
-SRCREV = "8f4a1cbe7d2ebb9912e2e074cb0880c87cd132b8"
+SRCREV = "2c46589830b7e69c1d14cbf39e7de0dd38a04073"
 LIC_FILES_CHKSUM = "file://COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
 
 require linux-aspeed.inc
